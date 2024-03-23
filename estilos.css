@@ -52,6 +52,9 @@ body{
     background-image: url(./imagen/fondo1.jpg);
     background-repeat:round;
 }
+.color{
+    color:palevioletred
+}
 .letraDancing{
     font-family: 'Dancing Script', cursive;
     text-align: center;
