@@ -1,0 +1,77 @@
+/**********RESETEO**********/
+* {
+    Margin:0;
+    padding:0;
+ }
+
+/*******************RESPONSIVE*******************/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 480px) and (max-device-width: 720px) {
+    /* Styles */ }
+  
+  /* Smartphones (landscape) ----------- */
+  @media only screen and (min-width: 481px) {
+    /* Styles */ }
+  
+  /* Smartphones (portrait) ----------- */
+  @media only screen and (max-width: 480px) {
+    /* Styles */ }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Styles */ }
+  
+  /* iPads (landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* Styles */ }
+  
+  /* iPads (portrait) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* Styles */ }
+  
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width: 1224px) {
+    /* Styles */ }
+  
+  /* Large screens ----------- */
+  @media only screen and (min-width: 1824px) {
+    /* Styles */ }
+  
+  /* iPhone 4 ----------- */
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+    /* Styles */ }
+
+header{
+    color: palevioletred;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+body{
+    background-image: url(./imagen/fondo1.jpg);
+    background-repeat:round;
+}
+.letraDancing{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+.cuadroFecha{
+    
+    border-top:solid 5px rgba(255, 255, 255, 0.307);
+    border-right:solid 5px rgba(255, 255, 255, 0.307);
+    border-bottom:solid 5px rgba(255, 255, 255, 0.307);
+    border-left:solid 5px rgba(255, 255, 255, 0.307);
+    border-radius:100%;
+}
+.imgBorde{
+    border-radius: 10px;
+    width: 75%;
+    height: 600px;
+  }
+  .img{
+    width: 75%;
+    height: 600px;
+  }
+
+  
